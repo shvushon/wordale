@@ -294,7 +294,7 @@ function shareResults() {
         shareResult = shareResult + result + "\n";
 
     }
-    shareResult = shareResult + "\n" + "וורדל בעברית:" + "\n" + "https://shvushon.github.io/wordale";
+    shareResult = shareResult + "\n" + "וורדל ללא הגבלה:" + "\n" + "https://shvushon.github.io/wordale";
     navigator.clipboard.writeText(shareResult);
     document.getElementById("shareButton").innerHTML = "תוצאות הועתקו ללוח";
 
